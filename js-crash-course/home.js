@@ -99,5 +99,5 @@ console.log(moreFruits);
 
 console.log(fruit.length);
 console.log(fruit.indexOf('as'));
-console.log(fruit.slice(2,4));
+console.log(fruit.slice(0,4));
 
