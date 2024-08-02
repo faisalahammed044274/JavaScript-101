@@ -12,6 +12,7 @@ var height = 5.6;
 console.log(height);
 
 document.getElementById('someText').innerHTML = 'Hello World!';
+document.getElementById('name').innerHTML = greeting();
 
 // prompt("What is your age ?");
 
@@ -47,12 +48,12 @@ fun();
 /* Let's Create a function that take in a name 
 and says hello followed by your name */
 
-function calling(name){
-    return 'Hey ' + name;
+function greeting(){
+   var name = prompt('what is your name?');
+   var result = 'Hello ' + name; //JS String Concatenation
+return result;
 }
 
-// calling('Faisal')
-console.log(calling('Faisal')); 
-console.log(calling('Ahammed')); 
+
 
 
