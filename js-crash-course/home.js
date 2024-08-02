@@ -24,3 +24,12 @@ console.log(number1);
 number1--;
 console.log(number1);
 
+// Divide /, multiply *, remainder %
+
+console.log(number1 / 3);
+
+// Increment and Decrement by any number
+
+number1 += 15;
+console.log(number1);
+
