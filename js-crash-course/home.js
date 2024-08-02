@@ -91,6 +91,13 @@ let groceries = ['apple','banana','orange']; //array
 let random; //undefined
 let nothing = null; //value null
 
+//Strings in JavaScript (Common methods)
 
+let fruit = 'Rahim';
+let moreFruits = 'banana\napple';
+console.log(moreFruits);
 
+console.log(fruit.length);
+console.log(fruit.indexOf('as'));
+console.log(fruit.slice(2,4));
 
