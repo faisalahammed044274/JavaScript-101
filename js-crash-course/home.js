@@ -12,7 +12,7 @@ var height = 5.6;
 console.log(height);
 
 document.getElementById('someText').innerHTML = 'Hello World!';
-document.getElementById('name').innerHTML = greeting();
+document.getElementById('name').innerHTML = //greeting();
 
 // prompt("What is your age ?");
 
@@ -53,6 +53,17 @@ function greeting(){
    var result = 'Hello ' + name; //JS String Concatenation
 return result;
 }
+
+//How do arguments works in function
+//How do we add 2 numbers together in a function
+
+function sumNumbers(num1,num2){
+    var result = num1 + num2;
+    console.log(result);
+}
+
+sumNumbers(12,12);
+
 
 
 
