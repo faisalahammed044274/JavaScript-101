@@ -64,6 +64,22 @@ function sumNumbers(num1,num2){
 
 sumNumbers(12,12);
 
+//While Loops
+
+//  var num = 40;
+
+//  while(num < 100){
+//     num+=1;
+//     console.log(num);
+//  }
+
+
+//For Loops
+
+for (let num = 0; num < 100; num++){
+    console.log(num);
+}
+
 
 
 
