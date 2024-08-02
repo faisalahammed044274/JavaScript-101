@@ -13,7 +13,7 @@ console.log(height);
 
 document.getElementById('someText').innerHTML = 'Hello World!';
 
-prompt("What is your age ?");
+// prompt("What is your age ?");
 
 // increment
 number1 = 10;
@@ -32,4 +32,27 @@ console.log(number1 / 3);
 
 number1 += 15;
 console.log(number1);
+
+//Functions
+// a. Create a function
+// b. Call a function
+
+function fun(){
+    alert('Hey Faisal, This is a function');
+    console.log('Function is working');
+}
+
+fun(); 
+
+/* Let's Create a function that take in a name 
+and says hello followed by your name */
+
+function calling(name){
+    return 'Hey ' + name;
+}
+
+// calling('Faisal')
+console.log(calling('Faisal')); 
+console.log(calling('Ahammed')); 
+
 
