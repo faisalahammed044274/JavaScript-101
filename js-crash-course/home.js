@@ -76,10 +76,20 @@ sumNumbers(12,12);
 
 //For Loops
 
-for (let num = 0; num < 100; num++){
+for (let num = 0; num < 10; num++){
     console.log(num);
 }
 
+
+//Data Types
+
+let yourAge = 18; //number
+let yourName = 'Faisal'; //String
+let name = {first:'Faisal',last:'Ahammed'}; //Object
+let isMarried = true; //Boolean
+let groceries = ['apple','banana','orange']; //array
+let random; //undefined
+let nothing = null; //value null
 
 
 
