@@ -100,4 +100,11 @@ console.log(moreFruits);
 console.log(fruit.length);
 console.log(fruit.indexOf('as'));
 console.log(fruit.slice(0,4));
+console.log(fruit.replace('Rah','Kar'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(2));
+console.log(fruit[2]);
+console.log(fruit.split(''));
+
 
