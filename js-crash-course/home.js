@@ -105,6 +105,32 @@ console.log(fruit.toUpperCase());
 console.log(fruit.toLowerCase());
 console.log(fruit.charAt(2));
 console.log(fruit[2]);
-console.log(fruit.split(''));
+console.log(fruit.split('')); //if you need to use comma you need to include array
 
+//Arrays
 
+// let fruits = ['banana','apple','orange','pineapple', 'strawberry'];
+fruits = new Array('Banana','Apple','Orange','Pineapple', 'Strawberry');
+
+alert(fruits[2] = 'Peer');
+console.log(fruits);
+
+for (let i = 0; i < fruits.length; i++){
+    console.log(fruits[i]);
+}
+
+//array common methods
+
+console.log('to string',fruits.toString());
+console.log(fruits.join(' & '));
+console.log(fruits, fruits.pop()), fruits; //remove last items
+console.log(fruits.push('Blackberries','Mango'), fruits); //appends
+fruits[fruits.length] = 'Grips';
+console.log(fruits);
+fruits.shift(); //remove first element from a array
+console.log(fruits);
+fruits.unshift('kiwi'); //add first element to an array
+console.log(fruits);
+let vegetables = ['asparagus','tomato','broccli'];
+let allGroceries = fruits.concat(vegetables); //combine arrays
+console.log(allGroceries);
