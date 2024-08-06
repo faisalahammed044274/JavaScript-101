@@ -142,3 +142,11 @@ let someNumbers = [5, 10, 15, 25, 30, 255, 1, 3, 5, 2, 3,6, 32,35 ,40,5 ,10];
 
 console.log(someNumbers.sort(function(a,b){return a-b })); //sorted in ascending order 
 console.log(someNumbers.sort(function(a,b){return b-a })); //sorted in decending order
+
+
+let emptyArray = new Array();
+for (let num = 0; num < 10; num++ ){
+    emptyArray.push(num);
+}
+
+console.log(emptyArray);
