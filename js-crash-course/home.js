@@ -134,3 +134,11 @@ console.log(fruits);
 let vegetables = ['asparagus','tomato','broccli'];
 let allGroceries = fruits.concat(vegetables); //combine arrays
 console.log(allGroceries);
+console.log(allGroceries.slice(1,5));
+console.log(allGroceries.reverse());
+console.log(allGroceries.sort());
+
+let someNumbers = [5, 10, 15, 25, 30, 255, 1, 3, 5, 2, 3,6, 32,35 ,40,5 ,10];
+
+console.log(someNumbers.sort(function(a,b){return a-b })); //sorted in ascending order 
+console.log(someNumbers.sort(function(a,b){return b-a })); //sorted in decending order
