@@ -150,3 +150,15 @@ for (let num = 0; num < 10; num++ ){
 }
 
 console.log(emptyArray);
+
+
+let student = {first: 'Faisal', last: 'Ahammed',age:'29',height:176,
+    studentInfo : function(){
+        return (this.first + ' ' + this.last + ' is ' + this.age + 'years old.');
+    }
+};
+console.log(student.first);
+console.log(student.last);
+console.log(student.age);
+console.log(student.height);
+console.log(student.studentInfo);
