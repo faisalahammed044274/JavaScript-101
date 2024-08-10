@@ -152,13 +152,20 @@ for (let num = 0; num < 10; num++ ){
 console.log(emptyArray);
 
 
-let student = {first: 'Faisal', last: 'Ahammed',age:'29',height:176,
-    studentInfo : function(){
-        return (this.first + ' ' + this.last + ' is ' + this.age + 'years old.');
+let student = {
+    first: 'Faisal',
+    last: 'Ahammed',
+    age: 25,
+    height: 5.6,
+    studentInfo: function(){
+        return this.first + '\n' + this.last + '\n' + this.age;
     }
 };
+
 console.log(student.first);
 console.log(student.last);
+student.first= 'Faisal Chanaged'; //change value
+console.log(student.first);
+student.age++;
 console.log(student.age);
-console.log(student.height);
-console.log(student.studentInfo);
+console.log(student.studentInfo());
