@@ -169,3 +169,36 @@ console.log(student.first);
 student.age++;
 console.log(student.age);
 console.log(student.studentInfo());
+
+//Conditionals Control Flows(if else)
+//18-35 is my target demographic
+
+let age =prompt('what is your age ?');
+
+if((age >= 18) && (age<= 35)){
+    status = 'target demo';
+    console.log(status);
+} else{
+    status = 'not my audience';
+    console.log(status);
+}
+
+//Switch Statements
+// Differentiate between weekday vs. weekend
+//day 0 --> Sunday = weekend
+//day 6 --> Saturday = weekend
+//day 4 --> Thursday to friday --> weekday
+
+switch(8){
+    case 0:
+        text = 'weekend';
+    break;
+    case 6:
+        text = 'weekend';
+    break;
+    default:
+        text = 'weekday';
+}
+
+console.log(text);
+
