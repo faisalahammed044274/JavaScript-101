@@ -11,6 +11,31 @@
     </div>
     <div id="name">Wait
     </div>
-<script src="home.js"></script>
+    <p id="demo"></p>
+
+    <!-- <script>
+    let text = '{"employees":[' +
+    '{"firstName":"John","lastName":"Doe" },' +
+    '{"firstName":"Annsssa","lastName":"Smith" },' +
+    '{"firstName":"Peter","lastName":"Jones" }]}';
+    
+    const obj = JSON.parse(text);
+    document.getElementById("demo").innerHTML =
+    obj.employees[1].firstName + " " + obj.employees[1].lastName;
+    </script> -->
+
+<script>
+    let abcstudent = '{"students":['+
+'{"fname":"Faisal","lname":"Ahammed"},' +
+'{"fname": "Setu","lname": "Ahammed"}]}';
+
+console.log(JSON.parse(abcstudent));
+
+const obj = JSON.parse(abcstudent);
+document.getElementById("demo").innerHTML = obj.students[1].fname + " " + obj.students[1].lname;
+</script>
+
+<!-- <script src="
+home.js"></script> -->
 </body>
 </html>
