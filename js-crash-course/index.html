@@ -32,7 +32,7 @@
 console.log(JSON.parse(abcstudent));
 
 const obj = JSON.parse(abcstudent);
-document.getElementById("demo").innerHTML = obj.students[1].fname + " " + obj.students[1].lname;
+document.getElementById("demo").innerHTML = obj.students[0].fname + " " + obj.students[0].lname;
 </script>
 
 <script>
@@ -50,7 +50,13 @@ document.getElementById("demo").innerHTML = obj.students[1].fname + " " + obj.st
         }
     ]`;
 
-    console.log(JSON.parse(students));
+    console.log(JSON.parse(students)[0]);
+
+    // Parse the JSON string to a JavaScript array
+    // let parsedStudents = JSON.parse(students);
+
+    // Access and log the first student object
+    // console.log(parsedStudents[0]);
 
 </script>
 
